@@ -1,0 +1,19 @@
+{
+    "name": "findstar/testableSample",
+    "authors": [
+        {
+            "name": "findstar",
+            "email": "findstar@xpressengine.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "dev-master@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Findstar\\Src\\": "src",
+            "Findstar\\Tests\\": "tests"
+        }
+    }
+}
